@@ -1,8 +1,5 @@
-# React + Vite
+# Rate Roller: Currency Conversion App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- This is a simple currency conversion app built using React and Vite. It allows users to enter an amount and select a currency to convert from and to.
+- The conversion rate is fetched from [this](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/) API.
+- [Click Me](https://tbs96.github.io/currencyConverterReact/) to visit & try out.
