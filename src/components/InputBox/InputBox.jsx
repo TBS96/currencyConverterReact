@@ -28,8 +28,9 @@ const Inputbox = ({ label, amount, onAmountChange, onCurrencyChange, currencyOpt
                     value={selectedCurrency}
                     onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
                     disabled={currencyDisabled}
+                    className='rounded-lg px-1 py-1 bg-gray-100 cursor-pointer outline-none'
                 />
-                <datalist id='currency-list' className='rounded-lg px-1 py-1 bg-gray-100 cursor-pointer outline-none'>
+                <datalist id='currency-list'>
                     {currencyOptions.map((currency) => 
                         <option key={currency} value={currency}>{currency}</option>
                     )}
