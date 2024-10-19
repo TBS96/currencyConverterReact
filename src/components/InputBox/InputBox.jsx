@@ -11,9 +11,9 @@ const Inputbox = ({ label, amount, onAmountChange, onCurrencyChange, currencyOpt
                 <input
                     id={id}
                     min={1}
-                    type="text"
+                    type="number"
                     className='outline-none w-full bg-transparent py-1.5'
-                    placeholder='Amount'
+                    placeholder='Enter Amount...'
                     disabled={amountDisabled}
                     value={amount}
                     onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
